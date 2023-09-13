@@ -1,0 +1,117 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+ul {
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    background-color: black;
+    background-image: url(../res/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contenedorArcade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    color: #111;
+    box-shadow: inset 0rem 0rem 2rem black,
+    0rem 0rem 5rem rgb(50, 122, 50);
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+    border-radius: 18%;
+    background-color: black;
+    width: 70rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btnAudio{
+    background: none;
+    border:none;
+}
+.btnAudio i{
+    font-size: 3rem;
+    color: lightgrey;
+    text-shadow: .1rem .1rem .1rem  rgb(50, 122, 50);
+}
+.btnAudio i:hover{
+    color: rgb(244, 248, 0);
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* color: rgb(185, 14, 157); */
+    color: green;
+    font-size: 10rem;
+    text-shadow: -4px 10px 1px rgb(244, 248, 0);
+    text-align: center;
+    margin-bottom: -.5rem;
+}
+.colores{
+    color:rgb(244, 248, 0);
+    text-shadow: -4px 10px 1px rgb(185, 14, 157);
+} 
+h4{
+    font-size: 2.5rem;
+    color: lightgrey;
+    text-shadow: .1rem .1rem .1rem  rgb(50, 122, 50);
+}
+h5{
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+ul{
+    border: solid;
+    border-color: white;
+    text-shadow: .1rem .2rem .2rem rgb(185, 14, 157);
+    box-shadow: 0rem 0rem .3rem rgb(250, 187, 239);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+ul li{
+    text-align: center;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+}
+ul li p{
+    color: turquoise;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+}
+ul li a{
+    color: white;
+    font-size: 3rem;
+}
+#btnPlay{
+    color: rgb(244, 248, 0);
+}
+.playColor{
+    color: red;
+}
+.oculto{
+    visibility: hidden;
+}
+.soundOculto{
+    display: none;
+}
+/* FIN GENERAL */

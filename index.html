@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./scripts/main.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Mi portafolio</title>
+</head>
+<body>
+    <main>
+        <div class="contenedorArcade">
+            <button class="btnAudio">
+                <audio id="cancionMenu" loop="loop" src="./res/aud/cancionMenu.mp3"></audio>
+                <audio id="audioSeleccionMenu" src="./res/aud/seleccionMenu.mp3"></audio>
+                <i class="fas fa-volume-mute mute"></i>
+                <i class="fas fa-volume-up desmute soundOculto"></i>
+            </button>
+        <h1 class="titulo">Nico's Invaders</h1>
+        <h4>By Nicolás Ledesma</h4>
+            <ul>
+                <li><p class="iconBtn">></p><a class="btnNavegacion selected" href=>Mis proyectos</a></li>
+                <li><p class="iconBtn oculto">></p><a class="btnNavegacion" href=>Mis scripts</a></li>
+                <li><p class="iconBtn oculto">></p><a class="btnNavegacion" href="">Mis conocimientos</a></li>
+                <li><p class="iconBtn oculto">></p><a class="btnNavegacion" href="">Sobre mi</a></li>
+                <li><p class="iconBtn oculto">></p><a class="btnNavegacion" id="btnPlay" href="">PLAY</a></li>
+            </ul>
+            <h5>Copyright© <span class="anio"></span></h5>
+        </div>
+    </main> 
+</body>
+</html>
